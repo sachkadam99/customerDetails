@@ -1,0 +1,28 @@
+
+<div class="jumbotron">
+ <div class="products-container">
+    <div class="productWrapper" ng-repeat="product in products ">
+    
+      <div class="imageDiv">
+         <img class="productImage" ng-src="{{product.image}}">
+      </div>
+      <div class="product-details">
+          <p class="product-name">{{product.name}}</p>
+          <p class="product-price"><span>{{product.price | currency : "AED "}}</span></p>
+      </div>
+
+      <div class="product-add-button">
+
+        <md-button ng-show="!product.showGotoCartButton" class="md-raised md-warn" ng-click="cartData.addItem(product);showGotoCart(product)"><md-icon md-svg-src="/images/cart.svg"></md-icon>  Add to cart</md-button>
+        <a href="/#!/cart"><md-button class="md-raised md-warn" ng-show="product.showGotoCartButton">  go to cart</md-button></a>
+        
+
+      </div>
+    
+  </div>
+ </div>
+
+    <md-button class="md-fab" aria-label="Back to Top" ng-click="scrollToTop()">
+        <md-icon class="glyphicon glyphicon-chevron-up"></md-icon>
+    </md-button>
+</div>

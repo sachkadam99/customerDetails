@@ -1,0 +1,26 @@
+ {
+ 	"items":[
+        {"id":"samsunng_galaxy_edge","name":"Samsung Galaxy Edge","quantity":"1","price":"2000","currency":"AED","type":"Electronics","image":"/images/galaxy_edge.JPG"},    	
+        {"id":"apple_iphone","name":"Apple iphone 6S Plus","quantity":"1","price":"2000","currency":"AED","type":"Electronics","image":"/images/iphone_5s.JPG"},
+        {"id":"casio_watch","name":"Casio Watch","quantity":"1","price":"600","currency":"AED","type":"Electronics","image":"/images/casio_watch.JPG"},
+        {"id":"apple_macbook","name":"Apple Macbook","quantity":"1","price":"5000","currency":"AED","type":"Electronics","image":"/images/macbook.JPG"},
+        {"id":"trimmer", "name":"Panasonic Trimmer ","quantity":"1","price":"3000","currency":"AED","type":"Electronics","image":"/images/trimmer.JPG"},
+        {"id":"apple_iphone7","name":"Apple iPhone 7","quantity":"1","price":"2600","currency":"AED","type":"Electronics","image":"/images/apple_iphone7.JPG"},
+        {"id":"apple_ipad_pro","name":"Apple iPad Pro","quantity":"1","price":"3200","currency":"AED","type":"Electronics","image":"/images/apple_ipad.JPG"},
+        {"id":"apple_ipad_air","name":"Apple iPad Air","quantity":"1","price":"3400","currency":"AED","type":"Electronics","image":"/images/ipad_air.JPG"},
+        {"id":"blackberry","name":"Blackberry Mobile Phone","quantity":"1","price":"1200","currency":"AED","type":"Electronics","image":"/images/blackberry.JPG"},
+        {"id":"casio_youth","name":"Casio Youth Watch","quantity":"1","price":"500","currency":"AED","type":"Electronics","image":"/images/casio_youth.JPG"},
+        {"id":"fossil_watch","name":"Fossil watch","quantity":"1","price":"550","currency":"AED","type":"Electronics","image":"/images/fossil_watch.JPG"},
+        {"id":"tag_heuer","name":"Tag Heuer watch","quantity":"1","price":"15000","currency":"AED","type":"Electronics","image":"/images/tag_heuer.JPG"},
+        {"id":"bose_headfone","name":"Bose wireless headphone","quantity":"1","price":"1300","currency":"AED","type":"Electronics","image":"/images/bose_headfone.JPG"},
+        {"id":"galaxy_note5","name":"Samsung galaxy note 5","quantity":"1","price":"800","currency":"AED","type":"Electronics","image":"/images/galaxy_note5.JPG"},
+        {"id":"moto","name":"Motorola Z","quantity":"1","price":"700","currency":"AED","type":"Electronics","image":"/images/moto.JPG"},
+        {"id":"nikon_camera","name":"Nikon camera","quantity":"1","price":"1400","currency":"AED","type":"Electronics","image":"/images/nikon_camera.JPG"},
+        {"id":"samsung_suhd","name":"Samsung SUHD","quantity":"1","price":"5000","currency":"AED","type":"Electronics","image":"/images/suhd.JPG"}
+  	],
+  	"cart": [
+  	],
+  	"shipping":10.99,
+    "taxRate":13,
+    "tax":null
+ }
